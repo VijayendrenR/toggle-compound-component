@@ -1,0 +1,68 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.App .input-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.App .buttonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.App .buttonContainer button {
+  width: 100px;
+  height: 25px;
+}
+
+.App .input-container input {
+  height: 30px;
+  width: 200px;
+  font-size: 15px;
+}
+
+/* custom styles for toggle compound component */
+.App .toggle-wrapper {
+  height: 90vh !important;
+  width: 90vw !important;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.custom-container-switch {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.custom-container-switch .dialog-button-on {
+  width: 48px;
+  left: 34px;
+}
+
+.custom-reset-btn {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #df4242;
+  color: #fff;
+}
